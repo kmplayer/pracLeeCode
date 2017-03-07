@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E9F3141E6E8A8E00B06590 /* LeecodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */; };
+		B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3191E6E8ABE00B06590 /* leecode.swift */; };
+		B2E9F3201E6E8ABE00B06590 /* leecode002_addtwonumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */; };
+		B2E9F3211E6E8ABE00B06590 /* leecode202_HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */; };
+		B2E9F3221E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */; };
+		B2E9F3231E6E8ABE00B06590 /* leecode344_ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */; };
+		B2E9F3241E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31E1E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2E9F3101E6E8A8E00B06590 /* LeecodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeecodeTest.swift; sourceTree = "<group>"; };
+		B2E9F3151E6E8A8E00B06590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E9F3191E6E8ABE00B06590 /* leecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode.swift; sourceTree = "<group>"; };
+		B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode002_addtwonumbers.swift; sourceTree = "<group>"; };
+		B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode202_HappyNumber.swift; sourceTree = "<group>"; };
+		B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode227_BasicCalculatorII.swift; sourceTree = "<group>"; };
+		B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode344_ReverseString.swift; sourceTree = "<group>"; };
+		B2E9F31E1E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode450_DeleteNodeinaBST.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E9F30D1E6E8A8E00B06590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E9F3051E6E8A7200B06590 = {
+			isa = PBXGroup;
+			children = (
+				B2E9F3121E6E8A8E00B06590 /* LeecodeTest */,
+				B2E9F3111E6E8A8E00B06590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E9F3111E6E8A8E00B06590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E9F3101E6E8A8E00B06590 /* LeecodeTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E9F3121E6E8A8E00B06590 /* LeecodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				B2E9F3191E6E8ABE00B06590 /* leecode.swift */,
+				B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */,
+				B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */,
+				B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */,
+				B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */,
+				B2E9F31E1E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift */,
+				B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */,
+				B2E9F3151E6E8A8E00B06590 /* Info.plist */,
+			);
+			path = LeecodeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E9F30F1E6E8A8E00B06590 /* LeecodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E9F3161E6E8A8E00B06590 /* Build configuration list for PBXNativeTarget "LeecodeTest" */;
+			buildPhases = (
+				B2E9F30C1E6E8A8E00B06590 /* Sources */,
+				B2E9F30D1E6E8A8E00B06590 /* Frameworks */,
+				B2E9F30E1E6E8A8E00B06590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeecodeTest;
+			productName = LeecodeTest;
+			productReference = B2E9F3101E6E8A8E00B06590 /* LeecodeTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E9F3061E6E8A7200B06590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					B2E9F30F1E6E8A8E00B06590 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2E9F3091E6E8A7200B06590 /* Build configuration list for PBXProject "LeecodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2E9F3051E6E8A7200B06590;
+			productRefGroup = B2E9F3111E6E8A8E00B06590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E9F30F1E6E8A8E00B06590 /* LeecodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E9F30E1E6E8A8E00B06590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E9F30C1E6E8A8E00B06590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E9F3141E6E8A8E00B06590 /* LeecodeTest.swift in Sources */,
+				B2E9F3201E6E8ABE00B06590 /* leecode002_addtwonumbers.swift in Sources */,
+				B2E9F3241E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift in Sources */,
+				B2E9F3211E6E8ABE00B06590 /* leecode202_HappyNumber.swift in Sources */,
+				B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */,
+				B2E9F3221E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift in Sources */,
+				B2E9F3231E6E8ABE00B06590 /* leecode344_ReverseString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2E9F30A1E6E8A7200B06590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B2E9F30B1E6E8A7200B06590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B2E9F3171E6E8A8E00B06590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = LeecodeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmbc.firefly.LeecodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2E9F3181E6E8A8E00B06590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = LeecodeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmbc.firefly.LeecodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E9F3091E6E8A7200B06590 /* Build configuration list for PBXProject "LeecodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E9F30A1E6E8A7200B06590 /* Debug */,
+				B2E9F30B1E6E8A7200B06590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E9F3161E6E8A8E00B06590 /* Build configuration list for PBXNativeTarget "LeecodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E9F3171E6E8A8E00B06590 /* Debug */,
+				B2E9F3181E6E8A8E00B06590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E9F3061E6E8A7200B06590 /* Project object */;
+}

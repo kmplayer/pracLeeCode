@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20CC94A1E6E91FC003BDD26 /* leecode263_UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */; };
+		B20CC98D1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */; };
+		B28B39BE1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B39BD1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift */; };
 		B2E9F3141E6E8A8E00B06590 /* LeecodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */; };
 		B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3191E6E8ABE00B06590 /* leecode.swift */; };
-		B2E9F3201E6E8ABE00B06590 /* leecode002_addtwonumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */; };
 		B2E9F3211E6E8ABE00B06590 /* leecode202_HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */; };
 		B2E9F3221E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */; };
 		B2E9F3231E6E8ABE00B06590 /* leecode344_ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */; };
@@ -17,11 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode263_UglyNumber.swift; sourceTree = "<group>"; };
+		B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode264_UglyNumberII.swift; sourceTree = "<group>"; };
+		B28B39BD1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode002_AddTwoNumbers.swift; sourceTree = "<group>"; };
 		B2E9F3101E6E8A8E00B06590 /* LeecodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeecodeTest.swift; sourceTree = "<group>"; };
 		B2E9F3151E6E8A8E00B06590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2E9F3191E6E8ABE00B06590 /* leecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode.swift; sourceTree = "<group>"; };
-		B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode002_addtwonumbers.swift; sourceTree = "<group>"; };
 		B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode202_HappyNumber.swift; sourceTree = "<group>"; };
 		B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode227_BasicCalculatorII.swift; sourceTree = "<group>"; };
 		B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode344_ReverseString.swift; sourceTree = "<group>"; };
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				B2E9F3191E6E8ABE00B06590 /* leecode.swift */,
-				B2E9F31A1E6E8ABE00B06590 /* leecode002_addtwonumbers.swift */,
+				B28B39BD1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift */,
 				B2E9F31B1E6E8ABE00B06590 /* leecode202_HappyNumber.swift */,
 				B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */,
+				B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */,
+				B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */,
 				B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */,
 				B2E9F31E1E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift */,
 				B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */,
@@ -138,12 +144,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E9F3141E6E8A8E00B06590 /* LeecodeTest.swift in Sources */,
-				B2E9F3201E6E8ABE00B06590 /* leecode002_addtwonumbers.swift in Sources */,
 				B2E9F3241E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift in Sources */,
+				B20CC94A1E6E91FC003BDD26 /* leecode263_UglyNumber.swift in Sources */,
 				B2E9F3211E6E8ABE00B06590 /* leecode202_HappyNumber.swift in Sources */,
 				B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */,
+				B28B39BE1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift in Sources */,
 				B2E9F3221E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift in Sources */,
 				B2E9F3231E6E8ABE00B06590 /* leecode344_ReverseString.swift in Sources */,
+				B20CC98D1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +290,7 @@
 				B2E9F3181E6E8A8E00B06590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

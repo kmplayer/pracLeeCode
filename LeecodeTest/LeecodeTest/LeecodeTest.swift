@@ -44,15 +44,14 @@ class LeecodeTest: XCTestCase {
 //        print("****************************************")
 //    }
     
-    func testLeecode227() {
-        let test: Solution = Solution()
-//        let express: String = "1 + 5 * 6 *7/2 -9"
-        let express: String = "14-3/2"
-        let sum: Int = test.calculate(express)
-        print("****************************************")
-        print(sum)
-        print("****************************************")
-    }
+//    func testLeecode227() {
+//        let test: Solution = Solution()
+//        let express: String = "14-3/2"
+//        let sum: Int = test.calculate(express)
+//        print("****************************************")
+//        print(sum)
+//        print("****************************************")
+//    }
     
 //    func testLeecode263() {
 //        let test: Solution = Solution()
@@ -68,6 +67,13 @@ class LeecodeTest: XCTestCase {
 //        print(test.nthUglyNumber(10))
 //        print("****************************************")
 //    }
+    
+    func testLeecode313() {
+        let test: Solution = Solution()
+        print("****************************************")
+        print(test.nthSuperUglyNumber(10, [2, 7, 13, 19]))
+        print("****************************************")
+    }
     
     
 //    func testLeecode344() {

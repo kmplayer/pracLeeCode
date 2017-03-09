@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B20CC94A1E6E91FC003BDD26 /* leecode263_UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */; };
 		B20CC98D1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */; };
+		B24D19951E70F66B00F1965B /* leecode313_SuperUglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D19941E70F66B00F1965B /* leecode313_SuperUglyNumber.swift */; };
 		B28B39BE1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B39BD1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift */; };
 		B2E9F3141E6E8A8E00B06590 /* LeecodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */; };
 		B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E9F3191E6E8ABE00B06590 /* leecode.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode263_UglyNumber.swift; sourceTree = "<group>"; };
 		B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode264_UglyNumberII.swift; sourceTree = "<group>"; };
+		B24D19941E70F66B00F1965B /* leecode313_SuperUglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode313_SuperUglyNumber.swift; sourceTree = "<group>"; };
 		B28B39BD1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leecode002_AddTwoNumbers.swift; sourceTree = "<group>"; };
 		B2E9F3101E6E8A8E00B06590 /* LeecodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeecodeTest.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				B2E9F31C1E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift */,
 				B20CC9491E6E91FC003BDD26 /* leecode263_UglyNumber.swift */,
 				B20CC98C1E6FB0CD003BDD26 /* leecode264_UglyNumberII.swift */,
+				B24D19941E70F66B00F1965B /* leecode313_SuperUglyNumber.swift */,
 				B2E9F31D1E6E8ABE00B06590 /* leecode344_ReverseString.swift */,
 				B2E9F31E1E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift */,
 				B2E9F3131E6E8A8E00B06590 /* LeecodeTest.swift */,
@@ -147,6 +150,7 @@
 				B2E9F3241E6E8ABE00B06590 /* leecode450_DeleteNodeinaBST.swift in Sources */,
 				B20CC94A1E6E91FC003BDD26 /* leecode263_UglyNumber.swift in Sources */,
 				B2E9F3211E6E8ABE00B06590 /* leecode202_HappyNumber.swift in Sources */,
+				B24D19951E70F66B00F1965B /* leecode313_SuperUglyNumber.swift in Sources */,
 				B2E9F31F1E6E8ABE00B06590 /* leecode.swift in Sources */,
 				B28B39BE1E6FE0F70051FC46 /* leecode002_AddTwoNumbers.swift in Sources */,
 				B2E9F3221E6E8ABE00B06590 /* leecode227_BasicCalculatorII.swift in Sources */,

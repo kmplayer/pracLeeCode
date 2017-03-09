@@ -4,10 +4,9 @@
 //
 //  Created by wenyanjie on 17/3/8.
 //
-//  Time:O(N) Space:O(N)
 
 /*
- 思路：
+ 思路:Time:O(N) Space:O(N)
     下一个uglynum必然是已经找到的uglynum中(ugly2*2, ugly3*3， ugly5*5)的最小值
     保存ugly2，ugly3，ugly5的下标值，哪个等于最小值（也就是下一个uglynum），
     对应的index后移一位

@@ -17,33 +17,28 @@ extension Solution {
     func nthSuperUglyNumber(_ n: Int, _ primes: [Int]) -> Int {
         
         var superUglyArray: [Int] = [1]
-        var indexArray = Array(repeating: 0, count: primes.count)
+        var indexArray = [Int](repeating: 0, count: primes.count)
         
         while superUglyArray.count != n {
-            var index = 0
             var minNum = 0
-            for tmpPrime in primes
+            for index in 0..<primes.count
             {
-                let nextUglyNum = superUglyArray[indexArray[index]] * tmpPrime
-                if index == 0
-                {
+                let nextUglyNum = superUglyArray[indexArray[index]] * primes[index]
+                if index == 0 {
                     minNum = nextUglyNum
+                }else {
+                    if minNum > nextUglyNum {
+                        minNum = nextUglyNum
+                    }
                 }
-                else
-                {
-                    if minNum > nextUglyNum { minNum = nextUglyNum }
-                }
-                
-                index += 1
             }
             
-            index = 0
-            for tmpPrime in primes
+            for index in 0..<primes.count
             {
-                let nextUglyNum = superUglyArray[indexArray[index]] * tmpPrime
-                if minNum == nextUglyNum { indexArray[index] += 1 }
-                
-                index += 1
+                let nextUglyNum = superUglyArray[indexArray[index]] * primes[index]
+                if minNum == nextUglyNum {
+                    indexArray[index] += 1
+                }
             }
             
             superUglyArray.append(minNum)
